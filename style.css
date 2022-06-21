@@ -198,7 +198,7 @@ p {
 
 .frame-vertical-line-left-big {
     width: var(--corner-size);
-    height: 14.5rem;
+    height: 14.75rem;
     top: 2.65rem;
     left: 1px;
     background: linear-gradient(to left,
