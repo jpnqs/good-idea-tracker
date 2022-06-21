@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
 :root {
     --bg-color: black;
     --c-side-header: cyan;
@@ -133,17 +136,18 @@ p {
 
 
 .number {
-    margin-top: 0.8rem;
+    margin-top: 0.7rem;
     padding-right: 1rem;
-    font-size: 28pt;
+    font-size: 25pt;
     text-shadow: 0px 0px 10px yellow;
-    font-family: 'Consolas';
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
 }
 
 .placeholder {
     color: rgba(255,255,255,.05);
     text-shadow: 0px 0px 10px rgba(255,255,255,.05);
-    font-family: 'Consolas';
+    /* font-family: 'Consolas'; */
 }
 
 .last-upd {
@@ -218,6 +222,6 @@ p {
     position: absolute;
     right: 1px;
     top: 2.65rem;
-    height: 14.5rem;
+    height: 14.75rem;
     position: absolute;
 }
